@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Portfolio</div>
+                <button class="mobile-menu-btn">☰</button>
+                <ul class="nav-links">
+                    <li><a href="#hero">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+ 
+    <section id="hero">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1>Hello, I'm <span style="color: #007bff;">Justine Dimalanta</span></h1>
+                <p>4th Year Computer Science Student</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-outline">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="section-title">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="/assets/Profile.png" alt="Profile Photo">
+                </div>
+                <div class="about-text">
+                    <h3>Who am I?</h3>
+                    <p>
+                         Hi there! I'm a 4th-year Computer Science student with a strong passion for 
+                         web development and creating responsive, user-friendly websites. Throughout my academic journey,
+                          I've worked on various projects—from portfolio sites and e-commerce platforms to an ASL (American Sign Language) translator web app.
+                           I'm constantly learning and exploring new technologies to sharpen my skills and build practical, impactful solutions.
+
+                    </p>
+                    <p>
+                        My goal is to build websites that not only look great but also provide an excellent user experience. 
+                        I love solving problems and turning ideas into reality through clean and efficient code.
+                    </p>
+                    <div class="skills">
+                        <h4>My Skills</h4>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                            <span class="skill-tag">JavaScript</span>
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Node.js</span>
+                            <span class="skill-tag">UI/UX Design</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <div class="section-title">
+                <h2>My Projects</h2>
+            </div>
+            <div class="projects-grid">
+           
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/assets/Seoulfinds.png" alt="seoulfinds">
+                    </div>
+                    <div class="project-info">
+                        <h3>Seoulfinds</h3>
+                        <p>
+                            <strong>Seoulfinds</strong> is a fully responsive e-commerce platform designed for K-pop fans to easily browse and purchase official merchandise. 
+                            The site features a smooth user experience, secure checkout, and dynamic product listings tailored for the K-pop community.
+                        </p>
+                      
+                    </div>
+                </div>
+                
+           
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/assets/Salinterpret.png" alt="salinterpret">
+                    </div>
+                    <div class="project-info">
+                        <h3>Salinterpret</h3>
+                        <p>
+                           A web application that translates American Sign Language (ASL) into text in real-time. Using advanced computer vision technology, Salinterpret bridges the communication gap between the ASL community and non-signers, fostering inclusivity and understanding. Communicate easily and connect without barriers.
+                        </p>
+                        <div class="project-links">
+                            <a href="https://salinterpret.vercel.app/" target="_blank">Live Demo</a>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="/assets/HandPrix.png" alt="hand">
+                    </div>
+                    <div class="project-info">
+                        <h3>Hand Prix</h3>
+                        <p>
+                            <strong>Hand Prix</strong> is an innovative racing game where players control their vehicle using real-time hand movements instead of traditional controllers. Built using OpenCV, the game uses computer vision to detect and track hand gestures, allowing players to steer, dodge obstacles, and experience a more immersive interaction.
+                        </p>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <div class="container">
+            <div class="section-title">
+                <h2>Contact Me</h2>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Get In Touch</h3>
+                    <p>
+                        Have a project in mind or just want to say hello? Feel free to reach out to me. 
+                        I'm always open to discussing new projects, creative ideas or opportunities to be part of your vision.
+                    </p>
+                    <ul class="contact-links">
+                        <li>
+                            <i>📧</i>
+                            <span>dimalantajustine8@gmail.com</span>
+                        </li>
+                        <li>
+                            <i>📱</i>
+                            <span>09388035079</span>
+                        </li>
+                        <li>
+                            <i>📍</i>
+                            <span>Olongapo City</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="contact-form">
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+        <div class="social-icons">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6c/Facebook_Logo_2023.png" alt="Facebook" width="30" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6f/Logo_of_Twitter.svg" alt="Twitter" width="30" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/a/a5/Instagram_icon.png" alt="Instagram" width="30" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/8/81/LinkedIn_icon.svg" alt="LinkedIn" width="30" />
+  <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg" alt="GitHub" width="30" />
+</div>
+            <div class="footer-text">
+                <p>&copy; 2025 Justine. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuBtn = document.querySelector('.mobile-menu-btn');
+            const navLinks = document.querySelector('.nav-links');
+            
+            mobileMenuBtn.addEventListener('click', function() {
+                navLinks.classList.toggle('active');
+            });
+            
+            
+            const links = document.querySelectorAll('.nav-links a');
+            links.forEach(link => {
+                link.addEventListener('click', function() {
+                    navLinks.classList.remove('active');
+                });
+            });
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            particlesJS('particles-js', {
+                particles: {
+                    number: {
+                        value: 80,
+                        density: {
+                            enable: true,
+                            value_area: 800
+                        }
+                    },
+                    color: {
+                        value: "#007bff" // Matches your primary blue color
+                    },
+                    shape: {
+                        type: "circle",
+                        stroke: {
+                            width: 0,
+                            color: "#000000"
+                        }
+                    },
+                    opacity: {
+                        value: 0.5,
+                        random: false,
+                        anim: {
+                            enable: false,
+                            speed: 1,
+                            opacity_min: 0.1,
+                            sync: false
+                        }
+                    },
+                    size: {
+                        value: 3,
+                        random: true,
+                        anim: {
+                            enable: false,
+                            speed: 40,
+                            size_min: 0.1,
+                            sync: false
+                        }
+                    },
+                    line_linked: {
+                        enable: true,
+                        distance: 150,
+                        color: "#007bff",
+                        opacity: 0.4,
+                        width: 1
+                    },
+                    move: {
+                        enable: true,
+                        speed: 3,
+                        direction: "none",
+                        random: false,
+                        straight: false,
+                        out_mode: "out",
+                        bounce: false,
+                        attract: {
+                            enable: false,
+                            rotateX: 600,
+                            rotateY: 1200
+                        }
+                    }
+                },
+                interactivity: {
+                    detect_on: "canvas",
+                    events: {
+                        onhover: {
+                            enable: true,
+                            mode: "grab"
+                        },
+                        onclick: {
+                            enable: true,
+                            mode: "push"
+                        },
+                        resize: true
+                    },
+                    modes: {
+                        grab: {
+                            distance: 140,
+                            line_linked: {
+                                opacity: 1
+                            }
+                        },
+                        push: {
+                            particles_nb: 4
+                        }
+                    }
+                },
+                retina_detect: true
+            });
+        });
+    </script>
+</body>
+</html>
